@@ -13,5 +13,4 @@ reverse_each_word = sentence1.split(" ")
 reverse_each_word.collect do |string|
   string.reverse
 end
-return_array.join(" ")
 end
