@@ -10,11 +10,13 @@ end
 
 
 def reverse_each_word(sentence1)
-reverse_each_word = sentence1.split(" ")
-reverse_each_word.collect do |string|
- string.reverse
-end
-reverse_each_word.join(" ")
+  reverse_each_word = string.split(" ") #turn string into an array
+  test_array = []
+  reverse_each_word.collect do|string| #iterate over the array
+    test_array << string.reverse #reverse each word in the array
+  end
+  test_array.join(" ")
 end
 
-puts reverse_each_word
+
+reverse_each_word("Hello there, and how are you?")
