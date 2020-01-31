@@ -7,7 +7,6 @@ end
 return_array.join(" ")
 end
 
-puts return_array
 
 
 def reverse_each_word(sentence1)
