@@ -1,3 +1,3 @@
-def describe_each_word(sentence)
-sentence.reverse_each
+def describe_each_word(sentence1)
+sentence1.reverse_each
 end
