@@ -1,4 +1,4 @@
-def describe_each_word(string)
+def reverse_each_word(string)
 describe_each_word = string.split(" ")
 return_array = []
 describe_each_word.each do|string|
