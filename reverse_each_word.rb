@@ -1,7 +1,7 @@
 def describe_each_word(string)
-original_array = string.split(" ")
+describe_each_word = string.split(" ")
 return_array = []
-original_array.each do|string|
+describe_each_word.each do|string|
 return_array << string.reverse
 end
 return_array.join(" ")
