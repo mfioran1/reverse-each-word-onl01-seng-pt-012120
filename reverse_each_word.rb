@@ -7,7 +7,7 @@ end
 return_array.join(" ")
 end
 
-def reverse_each_word(string)
+def reverse_each_letter(string)
   describe_each_word = string.split(" ")
 describe_each_word.collect do|string|
 describe_each_word << string.reverse
