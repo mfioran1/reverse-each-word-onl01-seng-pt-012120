@@ -9,7 +9,7 @@ end
 
 def reverse_each_word(string)
   describe_each_word = string.split(" ")
-describe_each_word.map do|string|
+describe_each_word.collect do|string|
 describe_each_word << string.reverse
 end
 return_array.join(" ")
