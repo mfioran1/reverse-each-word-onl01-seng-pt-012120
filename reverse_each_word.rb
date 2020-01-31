@@ -1,2 +1,2 @@
 def describe_each_word(sentence)
-.each
+sentence.reverse_each
