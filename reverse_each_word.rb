@@ -8,10 +8,10 @@ return_array.join(" ")
 end
 
 
-def reverse_each_word(sentence2)
-reverse_each_word = sentence2.split(" ")
-reverse_each_word.collect do |string|
-reverse_each_word << string.reverse
+def reverse_each_words(sentence2)
+reverse_each_words = sentence2.split(" ")
+reverse_each_words.collect do |string|
+reverse_each_words << string.reverse
 end
 return_array.join(" ")
 end
