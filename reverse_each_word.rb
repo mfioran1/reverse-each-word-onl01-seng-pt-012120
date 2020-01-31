@@ -10,9 +10,9 @@ end
 
 def reverse_each_words(sentence2)
 array = sentence2.split(" ")
-test_array
-reverse_each_words.collect do |string|
-reverse_each_words << string.reverse
-end
-return_array.join(" ")
+test_array = []
+  array.collect do|string| 
+    test_array << string.reverse 
+  end
+  test_array.join(" ")
 end
